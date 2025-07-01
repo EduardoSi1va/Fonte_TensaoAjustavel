@@ -20,14 +20,13 @@ Cabem aqui apenas os componentes adquiridos para a execução do trabalho, excet
 | Capacitor | 470μF, 35V | 2 | R$ 5,60 |
 | Transistor 2N3904 | 60V, 0.2A, 0.65W | 2 | R$ 3,20 |
 | Resistor CR25 100 | 100Ω | 10 | R$ 0,70 |
-| Resistor CR25 820 | 820Ω | 10 | R$ 0,70 |
-| Resistor CR25 1K | 1000Ω | 10 | R$ 0,70 |
 | Resistor CR25 1.8K | 1800Ω | 10 | R$ 0,70 |
+| Resistor CR25 2.2K | 2200Ω | 10 | R$ 0,70 |
 | Diodo | 1N4007 | 10 | R$ 2,00 |
 | Diodo Zener | 1N4743 13V, 1W | 2 | R$ 1,00 |
 | LED Vermelho | 5mm | 2 | R$ 1,00 |
 | Jumper | Macho x Macho 20cm | 10 | R$ 7,00 |
-| Total |   |   | R$ 29,04 |
+| Total |   |   | R$ 28,90 |
 
 # Função dos Componentes
 **• Transformador:** O transformador é o componente responsável por diminuir a tensão de entrada do circuito para um valor mais próximo ao desejado. O transformador utilizado reduz a tensão de pico de 127V para uma de, aproximadamente, 18V. Nota-se que esta ainda não é a tensão exigida para o projeto, portanto o restante do circuito é moldado para que a tensão de saída permaneça no intervalo 3-12V.<br><br>
@@ -42,6 +41,12 @@ Cabem aqui apenas os componentes adquiridos para a execução do trabalho, excet
 # Circuito da Fonte
 ![Circuito_Falstad](https://github.com/user-attachments/assets/753f5140-2f8f-4558-91b9-41d9b97e7e20)
 [Link do Circuito no falstad](https://tinyurl.com/2cjqocsm)
+
+# Circuito no Protoboard - Vista Superior
+![Circuito_Protoboard1](https://github.com/user-attachments/assets/ac1da0dd-7930-468d-b1b4-476971e12a93)
+
+# Circuito no Protoboard - Vista Frontal
+![Circuito_Protoboard2](https://github.com/user-attachments/assets/5a615ed1-d733-4367-8e0f-ed9c118c0db6)
 
 # EAGLE - Esquemático do Circuito 
 ![EAGLE_Esquematico](https://github.com/user-attachments/assets/f0c94348-775d-4e4a-9912-604963d73fee)
