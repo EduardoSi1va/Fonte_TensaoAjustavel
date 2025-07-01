@@ -54,6 +54,8 @@ Cabem aqui apenas os componentes adquiridos para a execução do trabalho, excet
 # EAGLE - Placa de Circuito Impresso (PCB)
 ![EAGLE_PCB](https://github.com/user-attachments/assets/ca3a65e0-cf54-4e7a-9ae3-f715dc206810)
 
+# Vídeo do funcionamento
+Link do youtube: https://youtube.com/shorts/StS6TcGJtbc?feature=share
 # Cálculos
 
 **• Razão das Espiras do transformador:** Para esse cálculo, utilizamos a fórmula: Vp/Vs = Np/Ns, sendo Np = Número de espiras no primário e Ns o número de espiras no secundário. Assim, temos: 127/18 ≈ 7,05
