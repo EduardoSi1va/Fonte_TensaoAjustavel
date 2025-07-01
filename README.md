@@ -40,14 +40,14 @@ Cabem aqui apenas os componentes adquiridos para a execução do trabalho, excet
 **• LED:** Esse dispositivo indica a passagem de corrente onde foi instalado, então foi inserido para acusar o funcionamento da fonte para o usuário.<br><br>
 
 # Circuito da Fonte
-![Circuito_Falstad](https://github.com/user-attachments/assets/3bb7d7d2-5d10-4e19-87b2-a835b187d8c1)
-[Link do Circuito no falstad](https://tinyurl.com/24vk4z9p)
+![Circuito_Falstad](https://github.com/user-attachments/assets/753f5140-2f8f-4558-91b9-41d9b97e7e20)
+[Link do Circuito no falstad](https://tinyurl.com/2cjqocsm)
 
 # EAGLE - Esquemático do Circuito 
-![Captura de tela 2025-06-30 124237](https://github.com/user-attachments/assets/24ba83f2-6280-4b36-9aa0-ae69ad864b10)
+![EAGLE_Esquematico](https://github.com/user-attachments/assets/f0c94348-775d-4e4a-9912-604963d73fee)
 
 # EAGLE - Placa de Circuito Impresso (PCB)
-![Captura de tela 2025-06-30 123709](https://github.com/user-attachments/assets/60632ac7-e16a-44ed-ab8f-14e5c72a1496)
+![EAGLE_PCB](https://github.com/user-attachments/assets/ca3a65e0-cf54-4e7a-9ae3-f715dc206810)
 
 # Cálculos
 
