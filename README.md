@@ -66,18 +66,25 @@ Link do youtube: https://youtube.com/shorts/StS6TcGJtbc?feature=share
 **• Tensão total no capacitor:** Para isso, vamos calcular a tensão de pico utilizando tensão da bobina secundária (18V), 18 * √2 ≈ **25,45V**, essa seria a tensão ideal.
 Após isso, para calcular a tensão total do capacitor, temos que considerar as perdas do diodo, Vp - Vperdida = 25,45 - (2 * 0,7V) = **24,05V** 
 
+**• Corrente total do circuito:** Visto que o circuito é uma fonte de 12V a 3V, e medimos isso num resistor de 120Ω, podemos facilmente calcular a corrente pela 1º lei de ohm: U = R * I -> 12 = 120 * I, I = **100mA** ou 3 = 120 * I, I = **25mA**
+
 **• Tensão no ripple e capacitância:** Para a tensão de ripple, vamos limitá-lo a 10% da tensão do circuito, sendo assim: Vripple : Vtotal * 0,10 = 24,05 * 0,1 = **2,405V**
-Agora consideraremos a fórmula para calcular a capacitância: C = I / 2 * f * V; Nesse caso, temos I como corrente total do circuito (≈102mA), f = frequência de 60Hz, da tomada e V, que nesse caso vamos utilizar o Vripple calculado anteriormente. Com isso, a conta fica: C = 102 * 10^-3 / 2 * 60 * 2,405 ≈ **353 * 10^-6 F ou 353μF**. Desse modo, o capacitor comercial escolhido foi o de **470μF**. 
+Agora consideraremos a fórmula para calcular a capacitância: C = I / 2 * f * V; Nesse caso, temos I como corrente total do circuito (≈102mA, valor obtido pelo falstad, diferente do valor ideal calculado acima), f = frequência de 60Hz, da tomada e V = Nesse caso vamos utilizar o Vripple calculado anteriormente. Com isso, a conta fica: C = 102 * 10^-3 / 2 * 60 * 2,405 ≈ **353 * 10^-6 F ou 353μF**. Desse modo, o capacitor comercial escolhido foi o de **470μF**. 
 
 **• Diodo Zener:** Resistência do diodo zener: Para esse cálculo, utilizaremos valores conhecidos do circuito, sendo a potência do zener (1W) e a tensão do zener(13V), usando a fórmula Pot = U * I. Isolando para I, temos: I = Pot / U -> I = 1 / 13  ≈ **77mA**
 
 A fonte fornece 24,05V, e a saída precisa ser 13V(Tensão do Zener), logo a queda de tensão é de 11,05V. COm isso, para calcular a resistência mínima para ter essa tensão é preciso fazer : U = R * I -> R = U / I -> R = 11,05 / 77 * 10^-3 =  **143,5Ω**    
 
-Agora para a resistência máxima: R * Imax = (Vtotal - Vripple) - Vzener -> R * Imax = 24,05 - 2,405 - 13 = 8,645V. Assim, podemos calcular Imax por : Ic + Iz + Ir, sendo Ic a corrente depois do pontênciometro (1mA), Iz a corrente que passa pelo Zener, como estamos calculando o caso de resistência máxima, a corrente do zener é 0. E por fim, o Ir que é a corrente que passa pelo resistor de 2,2K, abaixo do potenciometro (1,8mA, valor mostrado pelo Falstad)
-Assim, podemos dizer que Imax = 1mA + 0 + 1,8mA = **2,8mA**.  
+Agora para a resistência máxima: R * Imax = (Vtotal - Vripple) - Vzener -> R * Imax = 24,05 - 2,405 - 13 = 8,645V. Assim, podemos calcular Imax por : Ic + Iz + Ir, sendo Ic a corrente depois do pontênciometro (1mA), Iz a corrente que passa pelo Zener, como estamos calculando o caso de resistência máxima, a corrente do zener é 0. E por fim, o Ir que é a corrente que passa pelo resistor de 1,8K, abaixo do potenciometro (1,9mA, valor mostrado pelo Falstad)
+Assim, podemos dizer que Imax = 1mA + 0 + 1,9mA = **2,9mA**. 
 
-Agora, temos tudo o que precisamos para calcular a resistência máxima -> R * Imax = 8,645V -> R = 8,645 / 2,8 * 10^-3 -> Rmax = **3087Ω ou 3,087KΩ**
+Agora, temos tudo o que precisamos para calcular a resistência máxima -> R * Imax = 8,645V -> R = 8,645 / 2,9 * 10^-3 -> Rmax = **2981Ω ou 2,981KΩ**
+Essa resistência máxima indica qual o maior resistor que podemos colocar com o zener e o funcionamento continue igual, no caso do circuito, utilizamos um de 2,2KΩ
 
+**• Tensão nos demais resistores:**
 Por fim, o resistor de 4,4kΩ em série com o LED foi obtido ao unir dois resistores de 2,2kΩ em série; enquanto o resistor de 50Ω conectado ao coletor do transistor foi construído a partir da ligação em paralelo de dois resistores de 100Ω.
+Podemos calcular a tensão e corrente deles:  Para o resistor de 4,4K, só é preciso retirar a tensão que o led "come", ficaria então 24,05 - 1,7 = **22,35V**, e com a lei de ohm, calculamos a corrente -> 22,35 = 4,4K * I -> I = **5mA**
+
+Agora para o de 50 ohms, sabemos que a corrente do circuito é 100mA, então por lei de ohm -> U = R * I -> U = 50 * 0,1, U = **5V**
 
 
