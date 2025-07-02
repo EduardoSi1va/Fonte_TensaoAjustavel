@@ -1,7 +1,7 @@
 # Fonte de Tensão Ajustável
 Projeto desenvolvido para a disciplina [SSC0180 - Eletrônica para Computação], ministrada pelo Professor Eduardo do Valle Simôes.
 
-# Integrantes do Grupo 13:
+# Integrantes do Grupo 13
 | Aluno | Nº USP |
 |---|---|
 | André Campanholo Paschoalini | 14558061 |
