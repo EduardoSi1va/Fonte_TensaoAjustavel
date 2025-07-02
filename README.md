@@ -22,11 +22,12 @@ Cabem aqui apenas os componentes adquiridos para a execução do trabalho, excet
 | Resistor CR25 100 | 100Ω | 10 | R$ 0,70 |
 | Resistor CR25 1.8K | 1800Ω | 10 | R$ 0,70 |
 | Resistor CR25 2.2K | 2200Ω | 10 | R$ 0,70 |
+| Resistor 120R | 120Ω, 5%, 5W | 2 | R$ 3,80 |
 | Diodo | 1N4007 | 10 | R$ 2,00 |
 | Diodo Zener | 1N4743 13V, 1W | 2 | R$ 1,00 |
 | LED Vermelho | 5mm | 2 | R$ 1,00 |
 | Jumper | Macho x Macho 20cm | 10 | R$ 7,00 |
-| Total |   |   | R$ 28,90 |
+| Total |   |   | R$ 32,70 |
 
 # Função dos Componentes
 **• Transformador:** O transformador é o componente responsável por diminuir a tensão de entrada do circuito para um valor mais próximo ao desejado. O transformador utilizado reduz a tensão de pico de 127V para uma de, aproximadamente, 18V. Nota-se que esta ainda não é a tensão exigida para o projeto, portanto o restante do circuito é moldado para que a tensão de saída permaneça no intervalo 3-12V.<br><br>
@@ -76,5 +77,7 @@ Agora para a resistência máxima: R * Imax = (Vtotal - Vripple) - Vzener -> R *
 Assim, podemos dizer que Imax = 1mA + 0 + 1,8mA = **2,8mA**.  
 
 Agora, temos tudo o que precisamos para calcular a resistência máxima -> R * Imax = 8,645V -> R = 8,645 / 2,8 * 10^-3 -> Rmax = **3087Ω ou 3,087KΩ**
+
+Por fim, o resistor de 4,4kΩ em série com o LED foi obtido ao unir dois resistores de 2,2kΩ em série; enquanto o resistor de 50Ω conectado ao coletor do transistor foi construído a partir da ligação em paralelo de dois resistores de 100Ω.
 
 
