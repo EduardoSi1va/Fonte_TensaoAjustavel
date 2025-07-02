@@ -67,7 +67,7 @@ Link do youtube: https://youtube.com/shorts/StS6TcGJtbc?feature=share
 Após isso, para calcular a tensão total do capacitor, temos que considerar as perdas do diodo, Vp - Vperdida = 25,45 - (2 * 0,7V) = **24,05V** 
 
 **• Tensão no ripple e capacitância:** Para a tensão de ripple, vamos limitá-lo a 10% da tensão do circuito, sendo assim: Vripple : Vtotal * 0,10 = 24,05 * 0,1 = **2,405V**
-Agora consideraremos a fórmula para calcular a capacitância: C = I / 2 * f * V; Nesse caso, temos I como corrente total do circuito (≈102mA), f = frequência de 60Hz, da tomada e V, que nesse caso vamos utilizar o Vripple calculado anteriormente. Com isso, a conta fica: C = 102 * 10^-3 / 2 * 60 * 2,405 ≈ **353 * 10^-6 F ou 353μF**.
+Agora consideraremos a fórmula para calcular a capacitância: C = I / 2 * f * V; Nesse caso, temos I como corrente total do circuito (≈102mA), f = frequência de 60Hz, da tomada e V, que nesse caso vamos utilizar o Vripple calculado anteriormente. Com isso, a conta fica: C = 102 * 10^-3 / 2 * 60 * 2,405 ≈ **353 * 10^-6 F ou 353μF**. Desse modo, o capacitor comercial escolhido foi o de **470μF**. 
 
 **• Diodo Zener:** Resistência do diodo zener: Para esse cálculo, utilizaremos valores conhecidos do circuito, sendo a potência do zener (1W) e a tensão do zener(13V), usando a fórmula Pot = U * I. Isolando para I, temos: I = Pot / U -> I = 1 / 13  ≈ **77mA**
 
